@@ -33,8 +33,7 @@ def prediction(input_data):
 def main():
     
     st.title('HELP International Foundation')
-    st.subheader('''This application helps to classify the country on the basis
-                 of its scio-ecinomic and health factors''')
+    st.subheader('This application helps to classify the country on the basis of its scio-ecinomic and health factors')
     chld_mor = st.text_input('Enter child mortality rate')
     lf_exp = st.text_input('Enter average life expectancy')
     tol_fer = st.text_input('Enter total fertility rate')
